@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bem vindo </title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+
+		nav ul li{
+			border-right: 1px solid rgba(100, 100, 100, 0.2);
+			padding: 0 5px;
+			display: inline-block;
+		}
+		
+		header{
+			height: 5rem;
+			width: 100%;
+		}
+		body,html{
+			border: 0;
+			margin: 0;
+
+		}
+
+		nav a:hover{
+			color: #fff;
+		}
+		
+
+		nav{
+			background-color: orange;
+			height: 4rem;
+			width: 100%;
+			display: block;
+			position: fixed;
+			display: block;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			z-index: 3;
+		}
+
+		nav ul{
+			height: calc(100% - 2rem);
+			padding-bottom: 1rem;
+			list-style-type: none;
+			float: right;
+			padding-right: 2rem;
+		}
+
+		nav a{
+			font-family: Tahoma, georgia, serif;
+			height: 100%;
+			text-decoration: none;
+			color: inherit;
+			padding: 13px;
+		}
+
+		footer{
+			padding: 15px;
+	        float: bottom;
+	        background-color: orange;
+	        text-align: center;
+	        font-size: 15px;
+		}
+
+		h1{
+			text-align: center;
+			font-family: Tahoma, georgia, serif;
+		}
+		
+		h2{
+			font-family: Tahoma, georgia, serif;
+		}
+
+		p{
+			font-family: Tahoma, georgia, serif;
+		}
+		#imgCentro{
+		    margin:10px;
+	        border-radius: 50%;
+	        overflow: hidden;
+	        width: 300px;
+	        height: 300px;
+	        box-shadow: 3px 3px 5px #555;
+		}
+		#msg{ 
+			width: 250px; 
+			height: 150px; 
+			resize: none;
+
+		}
+		table{
+			font-family: Tahoma, georgia, serif;
+			border: 0;
+			width: 30%;
+		}
+
+ </style>
+ </head>
+<body>
+
+
+<header>
+	<nav>
+		<ul>
+			<li> <a href="index.html">Home</a> </li>
+			<li> <a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+</header>
+
+	<center>
+		<img src="imagens/1.jpg" width="400px" id="imgCentro" />
+	</center>
+
+	<h1>Endryl Marques do Nascimento dos Santos</h1>
+	<br>
+	<br>
+	<br>
+	<article>
+		
+		<div>
+			<h2>Formação Acadêmica</h2>
+			<p>UNIVERSIDADE CATÓLICA DO SALVADOR<br>
+			 Curso: ENGENHARIA DE SOFTWARE<br>
+			 Semestre: 05 Semestre (CONCLUSÃO: 06/2019)<br>
+			Período de Aula: Matutino<br>
+			</p>
+		</div>
+		
+		<br>
+
+		<div>
+			<h2>Experiência Profissional</h2>
+			<p>Estou procurando(incessantemente) uma oporturnidade para me inserir no mercado de trabalho.</p>
+		</div>
+				
+		<br>		
+
+		<div>
+			<h2>Conhecimentos</h2>
+			<br>
+			<table>
+				<tr>
+					<td><strong>Tecnologias</strong></td>
+					<td><strong>Nivel</strong></td><br>
+				</tr>
+				
+				<tr>
+					<td>Java</td>
+					<td>Intermediário</td>
+				</tr>
+			
+				<tr>
+					<td>MySql</td>
+					<td>Básico</td>
+				</tr>
+				
+				<tr>
+					<td>Eclipse</td>
+					<td>Intermediário</td>
+				</tr>
+
+				<tr>
+					<td>Windows</td>
+					<td>Intermediário</td>
+				</tr>
+
+				<tr>
+					<td>Linux</td>
+					<td>Básico</td>
+				</tr>
+
+				
+
+			</table>
+		</div>
+			<br>
+			<br><br>
+			<h4>Avalie o site :p</h4>
+	<form action="http://formulario-ucsal.appspot.com/DadosFormulario" method="post">
+         <input type="hidden" name="site" value="https://endrylmarques.github.io/curriculo-web">
+         <textarea id="msg" name="texto"> </textarea> <br>
+         <button type="submit">Enviar</button>
+       </form>
+	</article>
+
+	<footer>
+		<h4>Todos direitos reservados.</h4>
+	</footer>
+</body>
+</html>

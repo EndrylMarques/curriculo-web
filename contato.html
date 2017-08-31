@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato</title>
+	<meta charset="utf-8">
+
+	<meta charset="utf-8">
+
+	<style type="text/css">
+
+
+		nav ul li{
+			border-right: 1px solid rgba(100, 100, 100, 0.2);
+			padding: 0 5px;
+			display: inline-block;
+		}
+		
+		header{
+			height: 5rem;
+			width: 100%;
+		}
+		body,html{
+			border: 0;
+			margin: 0;
+			font-family: Tahoma, georgia, serif;
+
+		}
+
+		nav a:hover{
+			color: #fff;
+		}
+		
+
+		nav{
+			background-color: orange;
+			height: 4rem;
+			width: 100%;
+			display: block;
+			position: fixed;
+			display: block;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			z-index: 3;
+		}
+
+		nav ul{
+			height: calc(100% - 2rem);
+			padding-bottom: 1rem;
+			list-style-type: none;
+			float: right;
+			padding-right: 2rem;
+		}
+
+		nav a{
+			font-family: Tahoma, georgia, serif;
+			height: 100%;
+			text-decoration: none;
+			color: inherit;
+			padding: 13px;
+		}
+
+		footer{
+			padding: 15px;
+	        float: bottom;
+	        background-color: orange;
+	        text-align: center;
+	        font-size: 15px;
+	        position:absolute;
+		    bottom:0;
+		    width:100%;
+		}
+		
+		h1{
+			text-align: center;
+		}
+		</style>
+</head>
+<body>
+		<header>
+	<nav>
+		<ul>
+			<li> <a href="index.html">Home</a> </li>
+			<li> <a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+</header>
+
+
+<h1>endryl.marques@gmail.com</h1>
+
+<h3>Entre em contato</h3>
+
+Nome:<br>
+<input type="text" name="nome" /> <br>
+Email:<br>
+<input type="text" name="email" /> <br>
+<br><textarea name="texto"> </textarea> <br>
+<button type="submit">Enviar</button>
+
+<footer>
+		<h4>Todos direitos reservados.</h4>
+	</footer>
+</body>
+</html>
