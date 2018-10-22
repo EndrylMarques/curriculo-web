@@ -1,2 +1,2 @@
-# curriculo-web
-Atividade para matéria Programação Web.
+# HerptoFauna
+Projeto em conjunto com o curso de Biologia.
