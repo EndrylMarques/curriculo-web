@@ -5,14 +5,14 @@
     align-items: center;
   }
   
-  .img-fluid {
-      display: flex;
-      max-width: 20%;
-      height: auto;
-      margin: 15px;
-      margin-left: 40%
-  }
-  
+.img-fluid {
+    display: flex;
+    max-width: 40%;
+    height: auto;
+    margin: 15px;
+    margin-left: 30%
+}
+
   #snake-info {
       margin: 2em;
   }
